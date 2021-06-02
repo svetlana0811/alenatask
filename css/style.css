@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	-moz-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+body {
+    overflow-x: hidden;
+    font-family: Montserrat , sans-serif;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+ul {
+	list-style: none;
+}
+.content, .content p {
+	text-align: justify; 
+	margin: 0 0 10px;
+}
+.jobdescription {
+    width: 100%;
+}
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+@font-face {
+  font-family: Montserrat;
+  src: url('../fonts/Montserrat-Regular.ttf');
+}
+.my-container {
+	width: 1136px;
+	margin: 0 auto;
+}
+.flex-align-justify-center {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+header nav{
+	background: white
+} 
+header .navigation-and-contact ul li{
+    font-size: 16px;
+    line-height: 149.4%;
+    margin: 36px 11px;
+} 
+header .navigation-and-contact ul li.active a{
+	color: #0BA6BE;
+    border-bottom: 1px solid #0BA6BE;
+}
+header .navigation-and-contact .contact{
+	margin-left: 36px;
+}
+header .navigation-and-contact .contact a{
+	color: #FF4500;
+}
+header .navigation-and-contact .contact img{
+	margin-right: 11px
+} 
+.slider {
+	height: 696px;
+	position: relative;
+}
+.slider .up-on-caroucel{
+	position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 11;
+}
+.slider .up-on-caroucel h1{
+	letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: white;
+    font-family: auto;
+    max-width: 554px;
+    font-size: 60px;
+    line-height: 160%;
+    margin: 67px 0 100px;
+}
+.slider .up-on-caroucel  a{
+	color: #FF4500;
+}
+.slider .buttons{
+	display: flex;
+    justify-content: center;
+}
+.slider .buttons button{
+	background: #FF4500;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 263px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: 500;
+	font-size: 18px;
+	line-height: 149.4%;
+	border: none;
+	cursor: pointer;
+	color: #fff;
+}
+.slider .buttons button.find-job{
+	background: #0BA6BE;
+	margin-right: 30px
+}
+.slider .owl-carousel{
+	height: 100%;
+    width: 100%;
+}
+.slider .owl-carousel .item{
+	height: 696px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
